@@ -17,7 +17,7 @@ description 'K1-KeyHelp By:K1Dev'
 version '1.0'
 
 
-shared_script 'config.lua'
+shared_script 'K1Dev.lua'
 
 client_script "code/client.lua"
 
