@@ -10,3 +10,9 @@
 <h4 align="center">ระบบUI ช่วยเหลือผู้เล่น </h4>
 <h4 align="center">เพิ่มได้ไม่จำกัด แก้ไขได้หมด OPEN SRC </h4>
 
+
+  <a href="https://discord.gg/n7htcQj6sU">
+    <p>Discord Server </p>
+  </a>
+</p>
+
