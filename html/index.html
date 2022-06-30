@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <title>K1Dev</title>
+</head>
+<body>
+    <div class="main__container">
+        <div class="main__content">
+            <div class="main__ui-container">
+                <div class="main__header">
+                    <p>ปุ่มในเชิฟเวอร์</p>
+                    <div class="main__bottom-header-box">
+                        <p>K1Dev</p>
+                    </div>
+                </div>
+                <div class="main__content-container">
+                    <div class="main__content-grid">
+                        <div class="main__content-left-grid-container">
+                        </div>
+                    </div>
+                    <div class="main__close-button" onClick="$.post('http://K1-KeyHelp/exit', JSON.stringify({}));">
+                        <div class="main__close-button-grid">
+                            <div class="main__close-button-icon-container">
+                                <img src="img/logout.png" alt="">
+                            </div>
+                            <div class="main__close-button-text">
+                                <p>ESC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
